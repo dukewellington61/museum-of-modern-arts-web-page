@@ -8,7 +8,10 @@ body {
 }
 
 /*Navbar*/
-
+img[src="img/logo.jpg"] {
+  width: 3rem;
+  height: 3rem;
+}
 .navbar-dark {
   opacity: 0.5;
 }
