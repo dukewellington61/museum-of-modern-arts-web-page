@@ -17,8 +17,7 @@ img[src="img/logo.jpg"] {
 }
 
 .nav-link {
-  font-size: 1.25em;
-  font-weight: bold;
+  font-size: 1.25em;  
   font-family: Concert One, Helvetica, Arial, sans-serif;
 }
  
@@ -48,14 +47,17 @@ img[src="img/logo.jpg"] {
   padding-bottom: 20px;
 }
 
+
 /*INDEX*/
 
 /*Index Carousel*/
+.container-carousel {
+  top: 64px
+}
 
 .d-block {
   margin: 0 auto; 
-  width: auto;
-  max-width: 950px; 
+  width: auto; 
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
@@ -68,15 +70,14 @@ img[src="img/logo.jpg"] {
 }
 
 .carcaption {
-  position:absolute;
+  position: absolute;
   margin: 0 auto;
-  bottom: 32px;
+  bottom: 5rem;
   left: 0;
   right: 0; 
-  height:auto;
-  max-height: 22%;
-  max-width: 1100px;
-  width:auto;
+  height: auto;
+  max-height: 22%; 
+  width: auto;
   background: linear-gradient(to right, #3b3b3b, #a0a0a0);
   opacity: 0.5; 
   font-family: Concert One, Helvetica, Arial, sans-serif;
@@ -118,29 +119,15 @@ img[src="img/logo.jpg"] {
   padding-top: 2em;
 }
 
-/*work*/
-
-#work1, #work2 {
-  padding-bottom: 50px;
-  margin: auto;
+.carousel-indicators {
+bottom: 2.5rem;
 }
 
-.col-xs-12 {
-  padding-bottom: 20px;
-}
+/*works*/
 
-#work1 .img-fluid {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-#work2 .img-fluid {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-.info {
-  width: 100% !important;
+.modal-footer > p {
+  text-align: center;
+  width: 100%;
 }
 
 /*image hover effects*/
