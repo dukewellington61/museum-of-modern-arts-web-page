@@ -1,0 +1,1 @@
+img[src="img/logo.jpg"]{width:3rem;height:3rem}@media (max-width: 576px){img[src="img/logo.jpg"]{display:none}}@media (max-width: 576px){.navbar-dark .navbar-brand{font-size:0.75em}}.nav-link{font-size:1em}a.nav-link.active-page{font-weight:bolder;color:red !important}.navbar-brand{text-transform:uppercase}
